@@ -1,0 +1,156 @@
+/*(max-width: 1024px)*/
+@media (max-width:1000px) {
+	body {
+		font-size: 46px;
+	}
+	/*header*/
+	.header {
+		height: 180px;
+	}
+	.header > .title {
+		margin-top: 50px;
+		left: 20px;
+	}
+	.header > .title > p,
+	.comments-day,
+	.bottom-text {
+		font-size: 38px;
+	}
+	.header > .pre {
+		margin-top: 50px;
+		right: 20px;
+		font-size: 24px;
+	}
+	.header > .pre > .come,
+	.header > .pre > .comments0 span {
+		font-size: 28px;
+	}
+	/*content*/
+	.content{
+		padding:0 2% 150px;
+	}
+	/*swiper*/
+	.swiper-slide img {
+		height: 600px;
+	}
+	/*微信推广*/
+	.weixin , 
+	.activity,
+	.weixin2 > .title,
+	.bag > .title a,
+	.content1-text2,
+	.content4-text3,
+	.comments-name {
+		font-size: 46px;
+	}
+	.activity .money {
+		font-size: 50px;
+	}
+	/*个人介绍img*/
+	.personal,
+	.qb > p,
+	.weixin2 > ul > li {
+		font-size: 44px;
+	}
+	/*标题*/
+	.bag > .title {
+		width: 600px;
+	}
+	.weixin2 > .title,
+	.bag > .title a,
+	.content1-text2,
+	.content4-text3,
+	.comments-name {
+		font-size: 46px;
+	}
+	/*内容大标题*/
+	/*content1*/
+	.content1-title {
+		font-size: 54px;
+	}
+	.content1-text3 > span, 
+	.content1-text4 > span,
+	.content5-box1 > .item > .title {
+		font-size: 48px;
+	}
+	/*content2*/
+	.content2-img img {
+		padding: 10px 0;
+		height: 600px;
+	}
+	/*content4*/
+	.content4 img {
+		height: auto;
+		margin-top: 20px;
+	}
+	/*content5*/
+	.content5-box1 {
+		border-bottom: 5px dashed #ccc;
+	}
+	.content5-box1 > img {
+		width: 400px;
+		height: 480px;
+	}
+	/*订购方式*/
+	.evaluation-box1 .title1::before,
+	.evaluation-box1 .title2::before,
+	.evaluation-box1 .title3::before,
+	.evaluation-box1 .title4::before,
+	.evaluation-box1 .title5::before
+	{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.evaluation-box2 img{
+		margin-top: 50px;
+	}
+	/*评论区*/
+	.comments h2{
+		width: 300px;
+		font-size: 48px;
+	}
+	.comments-img img{
+		width: 180px;
+		height: 180px;
+	}
+	.comments-box2-right{
+		font-size: 38px;
+	}
+	.comments-box2-text,
+	.comments-author{
+		font-size: 42px;
+	}
+	/*footer*/
+	.footer {
+		font-size: 46px;
+		padding: 20px 0 10px;
+	}
+	/*topwiew页面*/
+	.diary > .name {
+		font-size: 48px;
+	}
+	.diary > .day {
+		font-size: 32px;
+	}
+	/*effect页面*/
+	.content1 > .content1-text3 {
+		font-size: 48px;
+	}
+	.content1 > .content1-text4 {
+		font-size: 48px;
+	}
+	.content1-box1 > .item > .title {
+	    font-size: 48px;
+	}
+	.content1-box1 > img {
+    	width: 400px;
+    	height: auto; 
+	}
+	.content1-text1-red {
+		font-size: 48px;
+	}
+	.row-img {
+		height: auto;
+	}
+}
